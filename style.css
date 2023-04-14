@@ -1,0 +1,38 @@
+body{
+    background-color: #083B4C;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+#table{
+    display: flex;
+    width: 75%;
+    break-inside: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: calc((100% / 12) * 2);
+}
+.casella{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    background-color: #1389B2;
+}
+.Fizz{
+    background-color: #0CD6A1;
+}
+.Buzz{
+    background-color: #FFD166;
+}
+.FizzBuzz{
+    background-color: #F0466F;
+}
